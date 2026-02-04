@@ -6,6 +6,24 @@
     <title>상세 안내서 | 북미 인플루언서 시딩 프로모션</title>
     <meta name="description" content="북미 인플루언서 시딩 프로모션 상세 안내서">
 
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1410933510783350');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1410933510783350&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -106,7 +124,7 @@
                 </svg>
                 메인으로
             </a>
-            <a href="apply.html" class="bg-zinc-900 text-white px-5 py-2.5 rounded-full font-medium text-sm hover:bg-zinc-800 transition-colors">
+            <a href="apply.html" onclick="fbq('track','Lead')" class="bg-zinc-900 text-white px-5 py-2.5 rounded-full font-medium text-sm hover:bg-zinc-800 transition-colors">
                 프로모션 신청
             </a>
         </div>
@@ -341,7 +359,7 @@
                 <div class="bg-zinc-900 text-white rounded-2xl sm:rounded-3xl p-8 sm:p-10 md:p-14 text-center">
                     <h2 class="text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4">준비되셨나요?</h2>
                     <p class="text-zinc-400 text-sm sm:text-base mb-6 sm:mb-8">지금 바로 신청서를 작성하고 프로모션에 참여하세요.</p>
-                    <a href="apply.html" class="inline-flex items-center justify-center gap-2 bg-white text-zinc-900 px-6 sm:px-8 py-4 rounded-full font-medium hover:bg-zinc-100 transition-colors min-h-[48px] w-full sm:w-auto">
+                    <a href="apply.html" onclick="fbq('track','Lead')" class="inline-flex items-center justify-center gap-2 bg-white text-zinc-900 px-6 sm:px-8 py-4 rounded-full font-medium hover:bg-zinc-100 transition-colors min-h-[48px] w-full sm:w-auto">
                         프로모션 신청서 작성하기
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                     </a>
